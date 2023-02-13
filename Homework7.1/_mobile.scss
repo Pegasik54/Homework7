@@ -1,0 +1,111 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .center {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    
+}
+
+
+
+
+
+
+
+@media (min-width: 375px) and (max-width: 768px) {
+
+    
+    .center{
+        padding-left: 16px; 
+        padding-right: 16px;
+        
+    }
+    .top_content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img {
+        height: 735px;
+        background-image:url(./img/backgroundmobile.png);
+    }
+    
+    .title {
+    width: 343px;
+    height: 77px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    }
+    
+    .top_text {
+    width: 343px;
+    height: 66px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    }
+    
+    .fat {
+        display: flex;
+        align-items: center;
+        text-align: center;
+      }
+
+    .product{
+        gap: 32px;
+        justify-content: center;
+    }
+    .product_image{
+        width: 343px;
+    }
+
+    .games-seasons {
+        padding-top: 51px;
+        padding-bottom: 85px;
+        text-align: center;
+    }
+
+    .games__info {
+        align-items: center;
+    }
+
+    .games__heading {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .games__text {
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .games__img{    
+        max-width: 344px;
+    }
+    
+    // Remember
+  
+    .games-remember {
+        padding-top: 51px;
+        padding-bottom: 85px;
+        text-align: center;
+    }
+
+}
+
+// 

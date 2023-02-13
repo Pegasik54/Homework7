@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="img">
+    <section class="top_content center"> 
+        <h1 class="title">Добро пожаловать <br> на мой сайт !</h1>
+        <p class="top_text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <b>поехали</b> и <b>приступай</b></p>
+        <button class="top_button">Поехали!</button>
+    </section>
+    </div>
+    <div class="background">
+    <section class="product center">
+        <article class="product_game">
+            <a  href="#"><img class="product_image" src="./img/Game1.png" alt="#"></a>
+            <p class="product_text">Игра 1</p>
+        </article>
+        <article class="product_game">
+            <a  href="#"><img class="product_image" src="./img/Game2.png" alt="#"><p class="product_text">Игра 2</p></a>
+        </article>
+        <article class="product_game">
+            <a  href="#"><img class="product_image" src="./img/Game3.png" alt="#"><p class="product_text">Игра 3</p></a>
+        </article>
+    </section>
+    </div>
+    <div class="gamebackground">
+    <section class="games-seasons center">
+        <div class="games__info">
+            <h2 class="games__heading">Времена года!</h2>
+            <p class="games__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+            <button onclick="gameSeason()" class="gamesbutton">Играть</button>
+        </div>
+        <img src="img/Seasons.svg" alt="game-seasons" class="games__img">
+    </section>
+    </div>
+    <div class="gamebackground">
+        <section class="games-remember center">
+            <div class="games__info">
+                <h2 class="games__heading">Запомни слова </h2>
+                <p class="games__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+                <button onclick="memoryGame()" class="gamesbutton">Играть</button>
+            </div>
+            <img src="img/Remember.svg" alt="game-seasons" class="games__img">
+        </section>
+        </div>
+
+        <script src="game.js"></script>
+</body>
+</html>
